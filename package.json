@@ -5,7 +5,8 @@
   "scripts": {
     "build:en": "ejs src/index.ejs -f src/en/data.json -o docs/en/index.html",
     "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o docs/pt-BR/index.html",
-    "build": "yarn build:pt-BR && yarn build:en"
+    "build": "yarn build:pt-BR && yarn build:en",
+    "watch": "watch -n 20 yarn build"
   },
   "repository": "https://github.com/clebsonsh/clebsonsh.github.io.git",
   "author": "Clebson Moura <clebson.sh@gmail.com>",
