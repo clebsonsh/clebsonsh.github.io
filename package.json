@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:en": "ejs src/index.ejs -f src/en/data.json -o dist/en/index.html",
-    "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o dist/pt-BR/index.html",
+    "build:en": "ejs src/index.ejs -f src/en/data.json -o docs/en/index.html",
+    "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o docs/pt-BR/index.html",
     "build": "yarn build:pt-BR && yarn build:en"
   },
   "repository": "https://github.com/clebsonsh/clebsonsh.github.io.git",
