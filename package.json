@@ -6,12 +6,17 @@
     "build:en": "ejs src/index.ejs -f src/en/data.json -o docs/en/index.html",
     "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o docs/pt-BR/index.html",
     "build": "yarn build:pt-BR && yarn build:en",
-    "watch": "watch -n 20 yarn build"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./docs/css/app.css",
+    "watch": "watch -n 20 'yarn build && yarn tailwind'",
+    "prod": "yarn build && yarn tailwind --minify"
   },
   "repository": "https://github.com/clebsonsh/clebsonsh.github.io.git",
   "author": "Clebson Moura <clebson.sh@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "ejs": "^3.1.7"
+    "autoprefixer": "^10.4.7",
+    "ejs": "^3.1.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
   }
 }
