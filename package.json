@@ -11,8 +11,6 @@
   "author": "Clebson Moura <clebson.sh@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-pug": "2.5.0",
-    "ejs": "^3.1.7",
-    "parcel": "^2.5.0"
+    "ejs": "^3.1.7"
   }
 }
