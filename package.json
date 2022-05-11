@@ -1,0 +1,18 @@
+{
+  "name": "clebsonsh.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:en": "ejs src/index.ejs -f src/en/data.json -o dist/en/index.html",
+    "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o dist/pt-BR/index.html",
+    "build": "yarn build:pt-BR && yarn build:en"
+  },
+  "repository": "https://github.com/clebsonsh/clebsonsh.github.io.git",
+  "author": "Clebson Moura <clebson.sh@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.5.0",
+    "ejs": "^3.1.7",
+    "parcel": "^2.5.0"
+  }
+}
