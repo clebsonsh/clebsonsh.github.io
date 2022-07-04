@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         sans: ["Ubuntu", ...defaultTheme.fontFamily.sans],
       },
+      boxShadow: {
+        btn: "4px 4px 0px 0px #000000",
+      },
     },
   },
   plugins: [],

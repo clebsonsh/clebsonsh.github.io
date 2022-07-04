@@ -1,4 +1,12 @@
 {
   "lang": "en",
-  "text": "Hello, world"
+  "aside_text_hi": "Hi there!",
+  "aside_text_stack": "If you are looking for a dev who works with PHP, Javascript, Laravel, Vue.js and Tailwind CSS",
+  "aside_text_pitch": "You have come to the right place!",
+  "get_in_touch": "GET IN TOUCH",
+  "other_lang_link": "/pt-BR",
+  "other_lang_flag": "/img/br.svg",
+  "works_link_text": "Works",
+  "contact_link_text": "Contact",
+  "awesome_projects": "Awesome projects"
 }

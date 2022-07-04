@@ -7,7 +7,7 @@
     "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o docs/pt-BR/index.html",
     "build": "yarn build:pt-BR && yarn build:en",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./docs/css/app.css",
-    "watch": "watch -n 20 'yarn build && yarn tailwind'",
+    "watch": "watch -n 5 'yarn build && yarn tailwind'",
     "prod": "yarn build && yarn tailwind --minify"
   },
   "repository": "https://github.com/clebsonsh/clebsonsh.github.io.git",
