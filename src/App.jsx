@@ -72,13 +72,20 @@ function App() {
       <h2 className="text-5xl text-center font-bold underline underline-offset-1 decoration-4 decoration-yellow-400 mb-24">
         {t('awesome_projects')}
       </h2>
-      <div id="works_list" className="grid grid-cols-2 gap-12 mx-24">
+      <div id="works_list" className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-24">
         <a
           href="https://campanhapickers.com.br/"
           target="_blank"
           className="shadow-xl hover:shadow-2xl hover:scale-105 transition-all rounded-3xl overflow-hidden"
         >
           <img src="/img/pickers.png" alt="" />
+        </a>
+        <a
+          href="https://promocaoschweppestonica.com.br/"
+          target="_blank"
+          className="shadow-xl hover:shadow-2xl hover:scale-105 transition-all rounded-3xl overflow-hidden"
+        >
+          <img src="/img/promocaoschweppestonica.png" alt="" />
         </a>
         <a
           href="https://www.promomark.com.br/"
