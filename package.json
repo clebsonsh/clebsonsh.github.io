@@ -1,22 +1,27 @@
 {
-  "name": "clebsonsh.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "vite-test",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "build:en": "ejs src/index.ejs -f src/en/data.json -o docs/en/index.html",
-    "build:pt-BR": "ejs src/index.ejs -f src/pt-BR/data.json -o docs/pt-BR/index.html",
-    "build": "yarn build:pt-BR && yarn build:en",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./docs/css/app.css",
-    "watch": "watch -n 5 'yarn build && yarn tailwind'",
-    "prod": "yarn build && yarn tailwind --minify"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": "https://github.com/clebsonsh/clebsonsh.github.io.git",
-  "author": "Clebson Moura <clebson.sh@gmail.com>",
-  "license": "MIT",
+  "dependencies": {
+    "i18next": "^21.8.13",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-i18next": "^11.18.0"
+  },
   "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
     "autoprefixer": "^10.4.7",
-    "ejs": "^3.1.7",
-    "postcss": "^8.4.13",
-    "tailwindcss": "^3.0.24"
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5",
+    "vite": "^2.9.9"
   }
 }
