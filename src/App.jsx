@@ -5,7 +5,7 @@ function App() {
   const { t } = useTranslation()
 
   return (
-    <div>
+    <div className='max-w-screen-xl mx-auto bg-gray-200'>
           <main className="max-h-screen h-screen grid grid-cols-3 overflow-y-hidden">
           <aside className="grid grid-cols-1 bg-black col-span-1 row-span-2 text-white">
         <div
