@@ -8,7 +8,7 @@ function App() {
     <div className="max-w-screen-xl mx-auto bg-gray-200">
       <main className="max-h-screen h-screen grid grid-cols-3 overflow-y-hidden">
         <aside className="grid grid-cols-1 bg-black col-span-3 sm:col-span-1 sm:row-span-2 text-white">
-          <div className="px-4 col-start-1 col-end-1 row-start-1 row-end-1 place-self-center font-medium">
+          <div className="px-4 py-4 col-start-1 col-end-1 row-start-1 row-end-1 place-self-start sm:place-self-center font-medium">
             <p className="text-2xl mb-1">{t("aside_text_hi")}</p>
             <p className="mb-1">{t("aside_text_stack")}</p>
             <p className="underline underline-offset-1 decoration-yellow-400">
