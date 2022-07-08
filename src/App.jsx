@@ -112,6 +112,7 @@ function App() {
 
         <div className="flex items-center gap-1 mt-2">
           <a
+            aria-label="Clebson's Linkedin"
             href="https://www.linkedin.com/in/clebsonsh/"
             className="p-1"
             target="_blank"
@@ -135,6 +136,7 @@ function App() {
           </a>
 
           <a
+            aria-label="Clebson's Github"
             href="https://github.com/clebsonsh"
             className="p-1"
             target="_blank"
@@ -153,12 +155,13 @@ function App() {
           </a>
 
           <a
+            aria-label="Clebson's Whatsapp"
             className="p-1"
             href="https://wa.me/5511967203938"
             target="_blannk"
           >
             <svg
-              className="h-5 hover:scale-125 transition-transform"
+              className="h-5 hover:scale-150 transition-transform"
               version="1.1"
               viewBox="0 0 58 58"
             >
