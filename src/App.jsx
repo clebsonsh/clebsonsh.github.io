@@ -112,8 +112,8 @@ function App() {
 
         <div className="flex items-center gap-1 mt-2">
           <a
-            href="https://www.linkedin.com/company/promomark/"
-            className="p-1 linkedin"
+            href="https://www.linkedin.com/in/clebsonsh/"
+            className="p-1"
             target="_blank"
           >
             <svg
@@ -135,8 +135,8 @@ function App() {
           </a>
 
           <a
-            href="https://www.facebook.com/promomarkfanpage"
-            className="p-1 facebook"
+            href="https://github.com/clebsonsh"
+            className="p-1"
             target="_blank"
           >
             <svg
