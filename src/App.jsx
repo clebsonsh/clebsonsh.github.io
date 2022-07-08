@@ -110,7 +110,7 @@ function App() {
           +55 (11) 96720 3938
         </a>
 
-        <div className="flex items-center gap-1 mt-2">
+        <div className="flex items-center gap-8 mt-2">
           <a
             aria-label="Clebson's Linkedin"
             href="https://www.linkedin.com/in/clebsonsh/"
