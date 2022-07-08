@@ -4,9 +4,12 @@
   "aside_text_stack": "Se você estava procurando um dev que trabalha com PHP, Javascript, Laravel, Vue.js and Tailwind CSS",
   "aside_text_pitch": "Você veio ao lugar certo!",
   "get_in_touch": "ENTRE EM CONTATO",
-  "other_lang_link": "/en",
-  "other_lang_flag": "/img/en.svg",
+  "br_flag": "Bandeira do Brasil",
+  "us_flag": "Bandeira dos Estados Unidos",
   "works_link_text": "Trabalhos",
   "contact_link_text": "Contato",
-  "awesome_projects": "Projetos incríveis"
+  "awesome_projects": "Projetos incríveis",
+  "pickers_site": "Campanha Pickers Web Site",
+  "schweppestonica_site": "Promoção Schweppes Tônica Web Site",
+  "promomark_site": "Promomark Web Site"
 }

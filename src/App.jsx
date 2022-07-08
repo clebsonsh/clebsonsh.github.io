@@ -5,8 +5,8 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div className="max-w-screen-xl mx-auto bg-gray-200">
-      <main className="max-h-screen h-screen grid grid-cols-3 overflow-y-hidden">
+    <div className="max-w-screen-xl mx-auto bg-gray-200 scroll-smooth">
+      <main className="min-h-[95vh] sm:min-h-screen grid grid-cols-3 overflow-y-hidden">
         <aside className="grid grid-cols-1 bg-black col-span-3 sm:col-span-1 sm:row-span-2 text-white">
           <div className="px-4 py-4 col-start-1 col-end-1 row-start-1 row-end-1 place-self-start sm:place-self-center font-medium">
             <p className="text-2xl mb-1">{t("aside_text_hi")}</p>
@@ -24,11 +24,13 @@ function App() {
           <img
             className="cursor-pointer w-8 h-8 hover:scale-125 transition-transform absolute top-4 right-16"
             src="/img/br.svg"
+            alt={t("br_flag")}
             onClick={() => i18next.changeLanguage("pt")}
           />
           <img
             className="cursor-pointer w-8 h-8 hover:scale-125 transition-transform absolute top-4 right-6"
             src="/img/en.svg"
+            alt={t("us_flag")}
             onClick={() => i18next.changeLanguage("en")}
           />
           <ul className="pb-1 px-8 h-full w-full text-white font-medium text-xl flex items-center justify-start gap-x-12">
@@ -59,28 +61,34 @@ function App() {
         </h2>
         <div
           id="works_list"
-          className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-24"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-8"
         >
           <a
             href="https://campanhapickers.com.br/"
             target="_blank"
+            aria-label={t("pickers_site")}
             className="shadow-xl hover:shadow-2xl hover:scale-105 transition-all rounded-3xl overflow-hidden"
           >
-            <img src="/img/pickers.png" alt="" />
+            <img src="/img/pickers.png" alt={t("pickers_site")} />
           </a>
           <a
             href="https://promocaoschweppestonica.com.br/"
             target="_blank"
+            aria-label={t("schweppestonica_site")}
             className="shadow-xl hover:shadow-2xl hover:scale-105 transition-all rounded-3xl overflow-hidden"
           >
-            <img src="/img/promocaoschweppestonica.png" alt="" />
+            <img
+              src="/img/promocaoschweppestonica.png"
+              alt={t("schweppestonica_site")}
+            />
           </a>
           <a
             href="https://www.promomark.com.br/"
             target="_blank"
+            aria-label={t("promomark_site")}
             className="shadow-xl hover:shadow-2xl hover:scale-105 transition-all rounded-3xl overflow-hidden"
           >
-            <img src="/img/promomark.png" alt="" />
+            <img src="/img/promomark.png" alt={t("promomark_site")} />
           </a>
         </div>
       </section>
